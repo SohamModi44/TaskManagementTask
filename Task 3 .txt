@@ -1,0 +1,137 @@
+# Part 3: Architecture & Edge Cases
+
+## 1. Global Exception Handling in ASP.NET Core
+
+I would implement global exception handling using custom exception-handling middleware or ASP.NET Core's built-in `UseExceptionHandler()` middleware.
+
+This approach catches unhandled exceptions across the application without requiring a `try-catch` block in every controller method.
+
+**Implementation:**
+
+* Configure `app.UseExceptionHandler()` in `Program.cs`.
+* Log exceptions using `ILogger` for debugging and monitoring.
+* Return a consistent error response with an appropriate HTTP status code, such as `500 Internal Server Error`.
+* Avoid exposing sensitive exception details to clients in production.
+
+**Example:**
+
+```csharp
+app.UseExceptionHandler("/error");
+```
+
+I would create an error-handling endpoint that returns a standardized error response.
+
+**Benefit:** Centralized exception handling reduces code duplication, improves maintainability, and ensures consistent API error responses.
+
+---
+
+## 2. Angular Performance: Preventing RxJS Memory Leaks
+
+Memory leaks can occur when subscriptions remain active after an Angular component is destroyed.
+
+I would use the following techniques:
+
+**Technique 1: `takeUntilDestroyed()`**
+
+In modern Angular, this operator automatically unsubscribes when the component or service's Angular lifecycle context is destroyed.
+
+```typescript
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import { DestroyRef, inject } from '@angular/core';
+
+private destroyRef = inject(DestroyRef);
+
+ngOnInit(): void {
+  this.taskService.getTasks()
+    .pipe(takeUntilDestroyed(this.destroyRef))
+    .subscribe(tasks => {
+      this.tasks = tasks;
+    });
+}
+```
+
+**Technique 2: `async` Pipe**
+
+The `async` pipe automatically subscribes to an Observable and unsubscribes when the component is destroyed.
+
+```typescript
+tasks$ = this.taskService.getTasks();
+```
+
+In the HTML template:
+
+```html
+<div *ngFor="let task of tasks$ | async">
+  {{ task.title }}
+</div>
+```
+
+**Technique 3: `takeUntil()`**
+
+For projects that use an explicit cleanup pattern, I can use a `Subject` to signal when subscriptions should end.
+
+```typescript
+private destroy$ = new Subject<void>();
+
+ngOnInit(): void {
+  this.taskService.getTasks()
+    .pipe(takeUntil(this.destroy$))
+    .subscribe(tasks => {
+      this.tasks = tasks;
+    });
+}
+
+ngOnDestroy(): void {
+  this.destroy$.next();
+  this.destroy$.complete();
+}
+```
+
+**Best practice:** Prefer `takeUntilDestroyed()` in modern Angular applications, use the `async` pipe for template subscriptions, and explicitly clean up long-lived subscriptions when necessary.
+
+---
+
+## 3. CORS: Angular and ASP.NET Core Web API
+
+CORS (Cross-Origin Resource Sharing) allows a browser-based application to access an API hosted on a different origin.
+
+During development, Angular might run at `http://localhost:4200`, while the ASP.NET Core Web API runs at `https://localhost:7001`. Because their origins differ, the API must allow requests from the Angular application's origin.
+
+**Implementation in `Program.cs`:**
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AngularPolicy", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+
+app.UseCors("AngularPolicy");
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+```
+
+**Explanation:**
+
+* `WithOrigins()` specifies which frontend origin is allowed.
+* `AllowAnyHeader()` allows request headers such as `Content-Type` and `Authorization`.
+* `AllowAnyMethod()` allows HTTP methods such as GET, POST, PUT, and DELETE.
+* `UseCors()` enables the configured policy in the middleware pipeline.
+
+**Best practice:** In production, allow only trusted frontend origins. If cookie-based authentication is required, configure credentials explicitly and specify exact origins instead of using a wildcard.

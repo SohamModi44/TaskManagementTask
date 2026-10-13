@@ -7,8 +7,8 @@ import { WorkTask } from '../models/work-task';
   providedIn: 'root'
 })
 export class TaskService {
-  // Ensure this matches your running .NET Core API port (e.g., 7041 or 5000)
-  private apiUrl = 'https://localhost:7041/api/tasks';
+  // Correct base URL matching your backend controller [Route("api/tasks")] and HTTP protocol
+  private apiUrl = 'http://localhost:5000/api/tasks';
 
   constructor(private http: HttpClient) {}
 
@@ -16,6 +16,7 @@ export class TaskService {
     return this.http.get<WorkTask[]>(this.apiUrl);
   }
 
+  
   getById(id: number): Observable<WorkTask> {
     return this.http.get<WorkTask>(`${this.apiUrl}/${id}`);
   }

@@ -1,0 +1,73 @@
+<h2>{{ taskId ? 'Edit Task' : 'Create Task' }}</h2>
+
+<form [formGroup]="taskForm" (ngSubmit)="save()">
+
+  <div>
+    <label>Title</label>
+
+    <input type="text" formControlName="title" />
+
+    <div
+      *ngIf="taskForm.controls.title.touched &&
+             taskForm.controls.title.hasError('required')">
+
+      Title is required.
+    </div>
+
+    <div
+      *ngIf="taskForm.controls.title.touched &&
+             taskForm.controls.title.hasError('maxlength')">
+
+      Title cannot exceed 100 characters.
+    </div>
+  </div>
+
+  <div>
+    <label>Description</label>
+
+    <textarea formControlName="description"></textarea>
+  </div>
+
+  <div>
+    <label>Status</label>
+
+    <select formControlName="status">
+      <option [ngValue]="TaskStatus.Pending">Pending</option>
+      <option [ngValue]="TaskStatus.InProgress">In Progress</option>
+      <option [ngValue]="TaskStatus.Completed">Completed</option>
+    </select>
+  </div>
+
+  <div>
+    <label>Estimated Hours</label>
+
+    <input
+      type="number"
+      step="0.01"
+      formControlName="estimatedHours"
+    />
+
+    <div
+      *ngIf="taskForm.controls.estimatedHours.touched &&
+             taskForm.controls.estimatedHours.hasError('required')">
+
+      Estimated hours are required.
+    </div>
+
+    <div
+      *ngIf="taskForm.controls.estimatedHours.touched &&
+             taskForm.controls.estimatedHours.hasError('min')">
+
+      Estimated hours must be greater than zero.
+    </div>
+  </div>
+
+  <button type="submit">
+    {{ taskId ? 'Update Task' : 'Create Task' }}
+  </button>
+
+  <button type="button" (click)="router.navigate(['/tasks'])">
+    Cancel
+  </button>
+
+</form>

@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\taskmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\services\\itaskutilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\services\\itaskutilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\services\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\models\\batchupdateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\models\\batchupdateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\models\\allocatetasksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\models\\allocatetasksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\models\\taskstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\models\\worktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\models\\worktask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\services\\taskutilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\services\\taskutilityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|c:\\users\\test1\\desktop\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi\\taskmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{11EF16C3-4947-42CE-B572-B96354B22AE9}|TaskManagementApi\\TaskManagementApi.csproj|solutionrelative:taskmanagementapi\\taskmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskManagementApi.http",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi.http",
+              "RelativeDocumentMoniker": "TaskManagementApi\\TaskManagementApi.http",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi.http",
+              "RelativeToolTip": "TaskManagementApi\\TaskManagementApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-10-13T07:56:18.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AllocateTasksRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\AllocateTasksRequest.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Models\\AllocateTasksRequest.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\AllocateTasksRequest.cs",
+              "RelativeToolTip": "TaskManagementApi\\Models\\AllocateTasksRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:43:10.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BatchUpdateResult.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\BatchUpdateResult.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Models\\BatchUpdateResult.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\BatchUpdateResult.cs",
+              "RelativeToolTip": "TaskManagementApi\\Models\\BatchUpdateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:43:20.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Program.cs",
+              "RelativeToolTip": "TaskManagementApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:07:50.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskManagementApi\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:06:10.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\TaskStatus.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Models\\TaskStatus.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\TaskStatus.cs",
+              "RelativeToolTip": "TaskManagementApi\\Models\\TaskStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:07:08.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WorkTask.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\WorkTask.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Models\\WorkTask.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Models\\WorkTask.cs",
+              "RelativeToolTip": "TaskManagementApi\\Models\\WorkTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:06:55.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\ITaskService.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Services\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\ITaskService.cs",
+              "RelativeToolTip": "TaskManagementApi\\Services\\ITaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:53:34.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITaskUtilityService.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\ITaskUtilityService.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Services\\ITaskUtilityService.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\ITaskUtilityService.cs",
+              "RelativeToolTip": "TaskManagementApi\\Services\\ITaskUtilityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:43:47.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\TaskService.cs",
+              "RelativeToolTip": "TaskManagementApi\\Services\\TaskService.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwBMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:53:57.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskUtilityService.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\TaskUtilityService.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Services\\TaskUtilityService.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Services\\TaskUtilityService.cs",
+              "RelativeToolTip": "TaskManagementApi\\Services\\TaskUtilityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:44:00.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskManagementApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T07:12:19.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TaskManagementApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:06:35.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagementApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\appsettings.json",
+              "RelativeToolTip": "TaskManagementApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-13T07:45:34.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskManagementApi",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi.csproj",
+              "RelativeDocumentMoniker": "TaskManagementApi\\TaskManagementApi.csproj",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi.csproj",
+              "RelativeToolTip": "TaskManagementApi\\TaskManagementApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-13T07:11:52.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Test1\\Desktop\\TaskManagementApi\\TaskManagementApi\\TaskManagementApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TaskManagementApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-13T07:14:12.714Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

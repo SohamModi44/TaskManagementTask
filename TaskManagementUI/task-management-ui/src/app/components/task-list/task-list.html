@@ -1,0 +1,44 @@
+<h2>Task Management</h2>
+
+<input
+  type="text"
+  placeholder="Search tasks by title..."
+  [(ngModel)]="searchText"
+  (ngModelChange)="onSearch($event)"
+/>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Estimated Hours</th>
+      <th>Created Date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let task of filteredTasks">
+      <td>{{ task.title }}</td>
+      <td>{{ task.description }}</td>
+      <td>{{ getStatusName(task.status) }}</td>
+      <td>{{ task.estimatedHours }}</td>
+      <td>{{ task.createdAt | date:'medium' }}</td>
+      <td>
+        <button type="button" (click)="editTask(task.id)">
+          Edit
+        </button>
+
+        <button type="button" (click)="deleteTask(task.id)">
+          Delete
+        </button>
+      </td>
+    </tr>
+
+    <tr *ngIf="filteredTasks.length === 0">
+      <td colspan="6">No tasks found.</td>
+    </tr>
+  </tbody>
+</table>
